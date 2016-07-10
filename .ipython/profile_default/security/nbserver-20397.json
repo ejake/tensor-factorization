@@ -1,0 +1,9 @@
+{
+  "hostname": "localhost", 
+  "pid": 20397, 
+  "secure": false, 
+  "port": 47805, 
+  "notebook_dir": "/home/rajaquep", 
+  "url": "http://localhost:47805/user/rajaquep/", 
+  "base_url": "/user/rajaquep/"
+}

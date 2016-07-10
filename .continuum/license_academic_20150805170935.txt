@@ -1,0 +1,13 @@
+{
+  "_license_version": "1.1",
+  "company": "Universidad Nacional de Colombia",
+  "email": "jearevaloo@unal.edu.co",
+  "end_date": "2016-08-04",
+  "issued": "2015-08-05",
+  "name": "John",
+  "packages": "numbapro mkl iopro",
+  "product": "Academic",
+  "qty": "1",
+  "sig": "06fadf5fad31691752f1b99453df298ebc09230a15c5e7de894555e138e6968bb81136307ca47a796f8f21f42e1f7dd5b0959a7dbcd1e41408ac956183bd8ffa",
+  "vendor": "continuum"
+}

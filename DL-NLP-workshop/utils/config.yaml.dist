@@ -1,0 +1,31 @@
+data_path: '/home/ssierral/tablesr.dat'
+#data_path: '/home/ssierral/tablesmsr.dat'
+#data_path: 'prepmsr.pkl'
+#data_path: 'tablesmsr.dat'
+models_path: '/home/jearevaloo/models/'
+model_name: 'random'
+
+rng_seed: [2015, 5, 19]
+#rng_seed: [2015, 6, 3]
+fill_null: True
+#Doc2Vec params
+window_size: 10
+alpha: 0.0025
+min_alpha: 0.0025
+n_iter: 20
+learning_rate: 0.01
+dimvec: 200
+sample: 0
+negative: 5
+min_count: 5
+dm: 1
+workers: 8
+
+fusion_vec: ['diff', 'concat']
+hist_bins: 20
+hist_dist: 'cosine'
+
+#classifier params
+normalize: True
+C_opts: '10.0 ** np.arange(-5, 5)'
+n_trees_opts: "[50,100,200,500]"

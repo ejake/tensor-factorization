@@ -243,3 +243,54 @@ emacs kernel.py
 cd kmf/
 top
 emacs kernel.py
+ls
+git push -u origin master 
+git status 
+git add 
+git add kmf/
+git add .
+git status 
+git commit
+git push
+exit
+ls
+git
+git --version 
+ls
+echo "# tensor-factorization" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git config --global user.email "rajaquep@gmail.com"
+git config --global user.name "Andres Jaque"
+git commit -m "first commit"
+git remote add origin https://github.com/ejake/tensor-factorization.git
+git push -u origin master
+xit
+exit
+ls
+git status
+cd kmf/
+ls
+emacs kernel.py
+ls
+emacs kmf/kernel.py
+ls
+emacs kmf/kernel.py
+exit
+ls
+emacs kmf/kernel.py
+ls kmf/
+rm kernel.py~
+ls kmf/
+rm kernel.py~
+cd kmf/
+rm kernel.py~
+ls
+emacs kernel.py
+exit
+emacs kmf/kernel.py
+ls
+emacs kmf/kernel.py
+top
+emacs kmf/kernel.py

@@ -8,12 +8,12 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:wq!
+:qw!
 :x
 :q
 :w
-:wq!
 :wq
-:qw!
 :qw
 
 # Search String History (newest to oldest):
@@ -25,20 +25,23 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+""-	CHAR	0
+	i
 
 # File marks:
-'0  1  14  ~/outcomes/Results_cmu_faces.csv
-'1  9  0  ~/kmf/kernel.py
-'2  16  0  ~/kmf/kTensFaces.py
-'3  7  33  ~/kmf/kTensFaces.py
-'4  13  25  ~/kmf/kTensFaces.py
-'5  2  0  ~/kmf/kntf.py
-'6  9  16  ~/kmf/kTensFaces.py
-'7  1  0  ~/kmf/kntf.py
-'8  41  0  ~/okmf/KKmeans.py
-'9  21  11  ~/kmf/kntf.py
+'0  1  28  ~/.git/COMMIT_EDITMSG
+'1  1  14  ~/outcomes/Results_cmu_faces.csv
+'2  9  0  ~/kmf/kernel.py
+'3  16  0  ~/kmf/kTensFaces.py
+'4  7  33  ~/kmf/kTensFaces.py
+'5  13  25  ~/kmf/kTensFaces.py
+'6  2  0  ~/kmf/kntf.py
+'7  9  16  ~/kmf/kTensFaces.py
+'8  1  0  ~/kmf/kntf.py
+'9  41  0  ~/okmf/KKmeans.py
 
 # Jumplist (newest first):
+-'  1  28  ~/.git/COMMIT_EDITMSG
 -'  1  14  ~/outcomes/Results_cmu_faces.csv
 -'  9  0  ~/kmf/kernel.py
 -'  1  0  ~/kmf/kernel.py
@@ -138,6 +141,12 @@
 -'  1  0  /home/jearevaloo/projects/workshop/input.txt
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/COMMIT_EDITMSG
+	"	1	28
+	^	1	29
+	.	1	28
+	+	1	28
 
 > ~/outcomes/Results_cmu_faces.csv
 	"	1	14

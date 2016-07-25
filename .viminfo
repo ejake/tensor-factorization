@@ -9,9 +9,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
+:q
 :qw!
 :x
-:q
 :w
 :wq
 :qw
@@ -29,7 +29,7 @@
 	i
 
 # File marks:
-'0  1  28  ~/.git/COMMIT_EDITMSG
+'0  1  0  ~/.git/COMMIT_EDITMSG
 '1  1  14  ~/outcomes/Results_cmu_faces.csv
 '2  9  0  ~/kmf/kernel.py
 '3  16  0  ~/kmf/kTensFaces.py
@@ -41,7 +41,7 @@
 '9  41  0  ~/okmf/KKmeans.py
 
 # Jumplist (newest first):
--'  1  28  ~/.git/COMMIT_EDITMSG
+-'  1  0  ~/.git/COMMIT_EDITMSG
 -'  1  14  ~/outcomes/Results_cmu_faces.csv
 -'  9  0  ~/kmf/kernel.py
 -'  1  0  ~/kmf/kernel.py
@@ -138,15 +138,14 @@
 -'  281  0  ~/DL-NLP-workshop/input.txt
 -'  1  0  ~/DL-NLP-workshop/input.txt
 -'  6686  0  /home/jearevaloo/projects/workshop/input.txt
--'  1  0  /home/jearevaloo/projects/workshop/input.txt
 
 # History of marks within files (newest to oldest):
 
 > ~/.git/COMMIT_EDITMSG
-	"	1	28
+	"	1	0
 	^	1	29
-	.	1	28
-	+	1	28
+	.	1	0
+	+	1	0
 
 > ~/outcomes/Results_cmu_faces.csv
 	"	1	14

@@ -294,3 +294,61 @@ ls
 emacs kmf/kernel.py
 top
 emacs kmf/kernel.py
+ls
+git status 
+git add .
+git add
+git add .
+git status 
+git commit
+git status 
+exit
+l
+emacs kmf/kernel.py
+ls
+
+ls kmf/
+emacs kmf/CNMF.py
+exit
+ls
+emacs kmf/kernel.py
+ls
+ls kmf/
+ls cnmf
+mkdir matrix_factorization
+ls
+ls matrix_factorization/
+mv matrix_factorization/ kmf/
+ls kmf/
+exit
+emacs kmf/matrix_factorization/cnmf.py 
+ls
+ls kmf/matrix_factorization/
+emacs kmf/matrix_factorization/nmf.py 
+exit
+ls
+ls kmf/matrix_factorization/
+.
+ls .
+ls ..
+ls ~
+ls
+git clone https://github.com/nils-werner/pymf.git
+ls
+ls pymf/
+emacs pymf/tests/test_pymf.py 
+emacs pymf/pymf/cnmf.py 
+exit
+emacs pymf/pymf/cnmf.py 
+ls pymf/pymf/
+emacs kmf/kernel.py
+top
+emacs kmf/kernel.py
+top
+emacs kmf/kernel.py
+ls
+ls kmf/
+ls
+ls pymf/
+emacs pymf/pymf/cnmf.py 
+exit

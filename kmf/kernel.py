@@ -52,7 +52,8 @@ def _get_kernel(X,y,kernel_func,**params):
     elif kernel_func=='linxrbf':#Linear x Gaussian
         kx =  K(X,y,'rbf',**params) * K(X,y,'linear')
     elif kernel_func=='polyxrbf':#Polynomial x Gaussian
-        kx =  K(X,y,'rbf',**params) * K(X,y,'poly',**params)
+        #kx =  K(X,y,'rbf',**params) * K(X,y,'poly',**params)
+        kx =  np.dot( np.exp(-1*np.linalg.norm(X-y)/params['gamma']) , (np.dot(X,y.T) + params['coef0'])**params['degree'])#:|
     else:
         kx = K(X,y,'linear')
         
@@ -69,15 +70,49 @@ def _get_kernel_deriv(x,y,kernel_func,**params):
     elif kernel_func=='poly':
         kx = params['degree']*(x*y + params['coef0'])**(params['degree']-1)
     elif kernel_func=='linxrbf':#Linear x Gaussian
-        kx = np.exp(-1*np.linalg.norm(x-y)/params['gamma'])
+        kx = y*np.exp(-1*np.linalg.norm(x-y)/params['gamma'])*(1-np.dot(x,x.T)/params['gamma']+params['coef0']/params['gamma'])
     elif kernel_func=='polyxrbf':#Polynomial x Gaussian
-        kx = y*np.exp(-1*np.linalg.norm(x-y)/params['gamma'])*(1-x*x/params['gamma']+params['coef0']/params['gamma'])
+        kx = np.dot(x,y.T)**(params['degree']-1) * np.exp(-1*np.linalg.norm(x-y)/params['gamma']) * np.dot( np.squeeze(y.T), np.squeeze(params['degree'] - x*np.dot(x,y.T)/params['gamma']**2 + y/params['gamma']**2) )
+    #elif kernel_func=='polyxrbf2':#Polynomial x Gaussian pendent
     else:
         kx = K(X,y,'linear')
         
     return kx
     
-
+def preimage_polyxrbf(X, alpha, kernel_fun,**params):
+    """
+    X: (numpy array nxm) Input data
+    sigma: scalar
+    alpha: numpy array (1xn)
+    method: 
+            fpi: Fixed-Point iterations
+    """
+    trainPre = list()
+    max_iter = 10 #halt criterium
+    epsilon = 0.0001 #halt criterium
+    #error = np.array()
+    #initialization
+    x_pre = np.random.rand(1,X.shape[1])
+        
+    for it in range(1,max_iter):
+        sum_num = np.zeros((1,X.shape[1]))
+        sum_den = 0        
+        for i in range(1,X.shape[0]):#might collapse this for with products
+            #compute kernel
+            kx = _get_kernel_deriv(X[i,:], x_pre, 'polyxrbf2', **params)            
+            fact1 = alpha[i]*kx            
+            sum_num += fact1*X[i,:]
+            sum_den += fact1*X[i,:]*(x_pre - X[i,:])
+            
+        x_pre = sum_num/sum_den
+        #compute error
+        #error = np.norm(x_pre - k_x)
+        trainPre.append(x_pre)
+        
+        
+    return x_pre,trainPre
+    
+    
 def preimage_linxrbf(X, alpha, kernel_fun,**params):
     """
     X: (numpy array nxm) Input data

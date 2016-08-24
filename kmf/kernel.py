@@ -173,7 +173,10 @@ def preimage_isot(X, alpha, kernel_fun,**params):
             sum_den += fact1
             sum_num += fact1*X[i,:]
             
-        x_pre = sum_num/sum_den
+        if sum_den == 0:
+            x_pre = 0
+        else:
+            x_pre = sum_num/sum_den
         #compute error
         #error = np.norm(x_pre - k_x)
         trainPre.append(x_pre)
@@ -207,7 +210,10 @@ def preimage(X, alpha, kernel_fun,**params):
             sum_den += fact1
             sum_num += fact1*X[i,:]
             
-        x_pre = sum_num/sum_den
+        if sum_den == 0:
+            x_pre = 0
+        else:
+            x_pre = sum_num/sum_den
         #compute error
         #error = np.norm(x_pre - k_x)
         trainPre.append(x_pre)

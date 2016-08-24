@@ -26,10 +26,10 @@
 
 # Registers:
 ""-	CHAR	0
-	i
+	e
 
 # File marks:
-'0  1  0  ~/.git/COMMIT_EDITMSG
+'0  1  17  ~/.git/COMMIT_EDITMSG
 '1  1  14  ~/outcomes/Results_cmu_faces.csv
 '2  9  0  ~/kmf/kernel.py
 '3  16  0  ~/kmf/kTensFaces.py
@@ -41,7 +41,7 @@
 '9  41  0  ~/okmf/KKmeans.py
 
 # Jumplist (newest first):
--'  1  0  ~/.git/COMMIT_EDITMSG
+-'  1  17  ~/.git/COMMIT_EDITMSG
 -'  1  14  ~/outcomes/Results_cmu_faces.csv
 -'  9  0  ~/kmf/kernel.py
 -'  1  0  ~/kmf/kernel.py
@@ -142,10 +142,10 @@
 # History of marks within files (newest to oldest):
 
 > ~/.git/COMMIT_EDITMSG
-	"	1	0
-	^	1	29
-	.	1	0
-	+	1	0
+	"	1	17
+	^	1	18
+	.	1	17
+	+	1	17
 
 > ~/outcomes/Results_cmu_faces.csv
 	"	1	14

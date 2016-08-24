@@ -352,3 +352,42 @@ ls
 ls pymf/
 emacs pymf/pymf/cnmf.py 
 exit
+git status 
+git add .
+git status 
+git commit 
+git status 
+git add pymf/
+git commit 
+ls
+ls datasets/
+path
+pwd
+cd datasets/
+pwd
+ls faces_sample.png 
+pwd
+ls
+cd ..
+
+ls kmf
+ls pymf/
+ls pymf/pymf/
+top
+free -h
+exit
+top
+cat /etc/issue
+top
+mem
+smem
+free -m
+vmstat 
+htop
+pmap
+pmap `pgrep -u 1000` | grep total | awk '{print $2}' | awk '{s+=$1}END{print s}'
+pmap 'pgrep -u 1000' | grep total | awk '{print $2}' | awk '{s+=$1}END{print s}'
+pmap 'pgrep -u 1000'
+pmap pgrep -u 1000
+smem -u
+htop

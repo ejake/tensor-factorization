@@ -1,0 +1,222 @@
+kernel ; missing rate ; time ; rse completion ; rse whole; rse whole_inc
+// Iteration 0; Missing rate = 0.100000; RSE (X, X_ic) = 8697.17174
+// Iteration 0; Missing rate = 0.100000; RSE (X, X_ic) = 8856.068369
+softxlinxrbf ; 0.100000 ; 480.820906 ; 5441.416858 ; 5493.489064; 0.286692
+// Iteration 0; Missing rate = 0.400000; RSE (X, X_ic) = 17744.683182
+softxlinxrbf ; 0.400000 ; 473.461373 ; 9813.552362 ; 11785.695871; 0.605048
+// Iteration 0; Missing rate = 0.500000; RSE (X, X_ic) = 19903.781712
+softxlinxrbf ; 0.500000 ; 471.152956 ; 7100.536062 ; 13608.371730; 0.683401
+// Iteration 0; Missing rate = 0.600000; RSE (X, X_ic) = 21720.763473
+softxlinxrbf ; 0.600000 ; 461.549962 ; 12265.804705 ; 16046.834455; 0.755688
+// Iteration 0; Missing rate = 0.700000; RSE (X, X_ic) = 23537.106751
+softxlinxrbf ; 0.700000 ; 459.859058 ; 10280.138683 ; 18642.122025; 0.838329
+// Iteration 0; Missing rate = 0.800000; RSE (X, X_ic) = 25161.330786
+softxlinxrbf ; 0.800000 ; 467.477559 ; 13055.559048 ; 21421.892672; 0.917410
+// Iteration 0; Missing rate = 0.900000; RSE (X, X_ic) = 26647.865623
+softxlinxrbf ; 0.900000 ; 481.074900 ; 13028.175360 ; 24440.352547; 1.014359
+// Iteration 0; Missing rate = 0.920000; RSE (X, X_ic) = 26988.168101
+softxlinxrbf ; 0.920000 ; 469.130082 ; 11550.885866 ; 25123.560076; 1.030501
+// Iteration 0; Missing rate = 0.940000; RSE (X, X_ic) = 27376.219541
+softxlinxrbf ; 0.940000 ; 487.898967 ; 42615.222617 ; 26428.839761; 1.070618
+// Iteration 0; Missing rate = 0.960000; RSE (X, X_ic) = 27571.637618
+softxlinxrbf ; 0.960000 ; 466.464431 ; 21561.661031 ; 26407.532630; 1.072657
+// Iteration 0; Missing rate = 0.980000; RSE (X, X_ic) = 27874.834708
+softxlinxrbf ; 0.980000 ; 457.398166 ; 15757.812826 ; 27641.032797; 1.119696
+// Iteration 1; Missing rate = 0.100000; RSE (X, X_ic) = 8991.763983
+softxlinxrbf ; 0.100000 ; 482.957099 ; 15876.750155 ; 5825.174647; 0.292162
+// Iteration 1; Missing rate = 0.400000; RSE (X, X_ic) = 17846.673506
+softxlinxrbf ; 0.400000 ; 454.406613 ; 8807.430523 ; 12213.708709; 0.605850
+// Iteration 1; Missing rate = 0.500000; RSE (X, X_ic) = 19803.406065
+softxlinxrbf ; 0.500000 ; 476.411145 ; 7527.919179 ; 13888.645803; 0.683594
+// Iteration 1; Missing rate = 0.600000; RSE (X, X_ic) = 21725.981946
+softxlinxrbf ; 0.600000 ; 476.624269 ; inf ; 15953.309941; 0.756989
+// Iteration 1; Missing rate = 0.700000; RSE (X, X_ic) = 23617.585013
+softxlinxrbf ; 0.700000 ; 472.173294 ; 16554.006350 ; 18649.767970; 0.840890
+// Iteration 1; Missing rate = 0.800000; RSE (X, X_ic) = 25125.459174
+softxlinxrbf ; 0.800000 ; 474.973343 ; 11978.765819 ; 21077.706296; 0.915379
+// Iteration 1; Missing rate = 0.900000; RSE (X, X_ic) = 26697.225208
+softxlinxrbf ; 0.900000 ; 454.774590 ; 11353.728079 ; 24340.852397; 1.013531
+// Iteration 1; Missing rate = 0.920000; RSE (X, X_ic) = 27005.283895
+softxlinxrbf ; 0.920000 ; 472.464170 ; 18984.038420 ; 25251.132696; 1.038728
+// Iteration 1; Missing rate = 0.940000; RSE (X, X_ic) = 27246.443332
+softxlinxrbf ; 0.940000 ; 506.403018 ; 27955.959900 ; 25715.743835; 1.048570
+// Iteration 1; Missing rate = 0.960000; RSE (X, X_ic) = 27586.740119
+softxlinxrbf ; 0.960000 ; 459.175377 ; 26084.531858 ; 26826.419399; 1.089309
+// Iteration 1; Missing rate = 0.980000; RSE (X, X_ic) = 27850.344330
+softxlinxrbf ; 0.980000 ; 475.518755 ; 27771.783536 ; 27232.474505; 1.101421
+// Iteration 2; Missing rate = 0.100000; RSE (X, X_ic) = 8856.894643
+softxlinxrbf ; 0.100000 ; 492.093639 ; 5477.306734 ; 5581.645834; 0.287695
+// Iteration 2; Missing rate = 0.400000; RSE (X, X_ic) = 17854.491419
+softxlinxrbf ; 0.400000 ; 471.784558 ; 5541.636531 ; 12028.720255; 0.600477
+// Iteration 2; Missing rate = 0.500000; RSE (X, X_ic) = 19817.964875
+softxlinxrbf ; 0.500000 ; 467.519805 ; 13002.185048 ; 13731.838181; 0.682211
+// Iteration 2; Missing rate = 0.600000; RSE (X, X_ic) = 21745.705350
+softxlinxrbf ; 0.600000 ; 453.899387 ; 7712.460423 ; 15791.359637; 0.758787
+// Iteration 2; Missing rate = 0.700000; RSE (X, X_ic) = 23486.625663
+softxlinxrbf ; 0.700000 ; 463.051967 ; 9253.163770 ; 18282.542459; 0.832966
+// Iteration 2; Missing rate = 0.800000; RSE (X, X_ic) = 25015.429482
+softxlinxrbf ; 0.800000 ; 468.032679 ; 28422.582706 ; 21225.643436; 0.915289
+// Iteration 2; Missing rate = 0.900000; RSE (X, X_ic) = 26709.962308
+softxlinxrbf ; 0.900000 ; 475.556121 ; 24213.028531 ; 24674.270840; 1.014361
+// Iteration 2; Missing rate = 0.920000; RSE (X, X_ic) = 26970.620935
+softxlinxrbf ; 0.920000 ; 533.981855 ; 14059.447204 ; 25044.280682; 1.028078
+// Iteration 2; Missing rate = 0.940000; RSE (X, X_ic) = 27312.323562
+softxlinxrbf ; 0.940000 ; 490.317112 ; 36686.913361 ; 25941.565524; 1.057425
+// Iteration 2; Missing rate = 0.960000; RSE (X, X_ic) = 27548.300161
+softxlinxrbf ; 0.960000 ; 521.335896 ; 13835.224848 ; 26515.587139; 1.082180
+// Iteration 2; Missing rate = 0.980000; RSE (X, X_ic) = 27851.371386
+softxlinxrbf ; 0.980000 ; 473.574687 ; 22007.964846 ; 27297.521433; 1.101017
+// Iteration 3; Missing rate = 0.100000; RSE (X, X_ic) = 8806.366551
+softxlinxrbf ; 0.100000 ; 494.072931 ; 4455.456549 ; 5526.313837; 0.284435
+// Iteration 3; Missing rate = 0.400000; RSE (X, X_ic) = 17903.677865
+softxlinxrbf ; 0.400000 ; 477.157082 ; 8097.498962 ; 11669.737662; 0.600534
+// Iteration 3; Missing rate = 0.500000; RSE (X, X_ic) = 20028.022572
+softxlinxrbf ; 0.500000 ; 453.126706 ; 8885.612763 ; 13940.896154; 0.677560
+// Iteration 3; Missing rate = 0.600000; RSE (X, X_ic) = 21796.329999
+softxlinxrbf ; 0.600000 ; 539.245538 ; 21833.856575 ; 15732.967646; 0.755970
+// Iteration 3; Missing rate = 0.700000; RSE (X, X_ic) = 23537.637690
+softxlinxrbf ; 0.700000 ; 480.734252 ; 22577.286187 ; 18522.692124; 0.837914
+// Iteration 3; Missing rate = 0.800000; RSE (X, X_ic) = 25219.414967
+softxlinxrbf ; 0.800000 ; 465.555120 ; 76628.903678 ; 21253.034146; 0.916883
+// Iteration 3; Missing rate = 0.900000; RSE (X, X_ic) = 26672.710772
+softxlinxrbf ; 0.900000 ; 493.342407 ; 43497.055707 ; 24127.825554; 1.005140
+// Iteration 3; Missing rate = 0.920000; RSE (X, X_ic) = 27015.046751
+softxlinxrbf ; 0.920000 ; 484.547840 ; 13864.077368 ; 25214.683365; 1.028867
+// Iteration 3; Missing rate = 0.940000; RSE (X, X_ic) = 27263.885581
+softxlinxrbf ; 0.940000 ; 477.495489 ; 12364.906207 ; 26004.772906; 1.061369
+// Iteration 3; Missing rate = 0.960000; RSE (X, X_ic) = 27595.935617
+softxlinxrbf ; 0.960000 ; 477.767280 ; 135742.039547 ; 26621.203957; 1.077998
+// Iteration 3; Missing rate = 0.980000; RSE (X, X_ic) = 27842.986968
+softxlinxrbf ; 0.980000 ; 473.964629 ; 13356.250021 ; 27409.741326; 1.109722
+// Iteration 4; Missing rate = 0.100000; RSE (X, X_ic) = 9010.802640
+softxlinxrbf ; 0.100000 ; 460.306214 ; 2835.546092 ; 5560.963455; 0.292047
+// Iteration 4; Missing rate = 0.400000; RSE (X, X_ic) = 17864.867780
+softxlinxrbf ; 0.400000 ; 473.629688 ; 19960.605496 ; 12065.598268; 0.600903
+// Iteration 4; Missing rate = 0.500000; RSE (X, X_ic) = 19984.798664
+softxlinxrbf ; 0.500000 ; 474.687870 ; 8012.105927 ; 14098.014612; 0.686970
+// Iteration 4; Missing rate = 0.600000; RSE (X, X_ic) = 21742.940973
+softxlinxrbf ; 0.600000 ; 471.529311 ; 23764.299424 ; 15804.737246; 0.754817
+// Iteration 4; Missing rate = 0.700000; RSE (X, X_ic) = 23636.772852
+softxlinxrbf ; 0.700000 ; 477.483228 ; 8641.003985 ; 18794.470420; 0.835616
+// Iteration 4; Missing rate = 0.800000; RSE (X, X_ic) = 25210.963181
+softxlinxrbf ; 0.800000 ; 462.181774 ; 19626.955394 ; 21431.230279; 0.920646
+// Iteration 4; Missing rate = 0.900000; RSE (X, X_ic) = 26713.629023
+softxlinxrbf ; 0.900000 ; 478.316792 ; 13143.484818 ; 24453.729476; 1.003009
+// Iteration 4; Missing rate = 0.920000; RSE (X, X_ic) = 26950.238621
+softxlinxrbf ; 0.920000 ; 498.228934 ; 13500.657811 ; 25395.816287; 1.040314
+// Iteration 4; Missing rate = 0.940000; RSE (X, X_ic) = 27338.205094
+softxlinxrbf ; 0.940000 ; 491.853002 ; 13857.461633 ; 26137.731668; 1.064377
+// Iteration 4; Missing rate = 0.960000; RSE (X, X_ic) = 27577.371514
+softxlinxrbf ; 0.960000 ; 484.204949 ; 61203.305848 ; 26839.425670; 1.091143
+// Iteration 4; Missing rate = 0.980000; RSE (X, X_ic) = 27862.658188
+softxlinxrbf ; 0.980000 ; 463.462670 ; 23334.624179 ; 27266.431060; 1.103976
+// Iteration 5; Missing rate = 0.100000; RSE (X, X_ic) = 8924.862745
+softxlinxrbf ; 0.100000 ; 467.407468 ; 2759.081493 ; 5491.569378; 0.290324
+// Iteration 5; Missing rate = 0.400000; RSE (X, X_ic) = 17684.652640
+softxlinxrbf ; 0.400000 ; 466.879977 ; 31403.132939 ; 11521.799615; 0.599540
+// Iteration 5; Missing rate = 0.500000; RSE (X, X_ic) = 19871.910377
+softxlinxrbf ; 0.500000 ; 474.014221 ; 17423.848679 ; 14089.055053; 0.684493
+// Iteration 5; Missing rate = 0.600000; RSE (X, X_ic) = 21710.274298
+softxlinxrbf ; 0.600000 ; 493.031960 ; 8362.171651 ; 15601.152740; 0.754480
+// Iteration 5; Missing rate = 0.700000; RSE (X, X_ic) = 23506.160123
+softxlinxrbf ; 0.700000 ; 474.273328 ; 9687.782116 ; 18124.181395; 0.828940
+// Iteration 5; Missing rate = 0.800000; RSE (X, X_ic) = 25166.804514
+softxlinxrbf ; 0.800000 ; 458.043981 ; 16957.793946 ; 21164.606357; 0.910441
+// Iteration 5; Missing rate = 0.900000; RSE (X, X_ic) = 26705.026984
+softxlinxrbf ; 0.900000 ; 464.394606 ; 11169.948806 ; 23946.854573; 1.000422
+// Iteration 5; Missing rate = 0.920000; RSE (X, X_ic) = 27029.393299
+softxlinxrbf ; 0.920000 ; 474.940941 ; 25871.212026 ; 25621.243146; 1.043159
+// Iteration 5; Missing rate = 0.940000; RSE (X, X_ic) = 27285.799064
+softxlinxrbf ; 0.940000 ; 483.994604 ; 27295.100215 ; 26224.283799; 1.065327
+// Iteration 5; Missing rate = 0.960000; RSE (X, X_ic) = 27607.112852
+softxlinxrbf ; 0.960000 ; 472.398482 ; 13066.452288 ; 26753.725263; 1.085679
+// Iteration 5; Missing rate = 0.980000; RSE (X, X_ic) = 27871.344363
+softxlinxrbf ; 0.980000 ; 500.394134 ; 21159.448889 ; 27526.058557; 1.105961
+// Iteration 6; Missing rate = 0.100000; RSE (X, X_ic) = 8933.510701
+softxlinxrbf ; 0.100000 ; 475.980557 ; 2719.313643 ; 5854.181120; 0.291367
+// Iteration 6; Missing rate = 0.400000; RSE (X, X_ic) = 17824.787692
+softxlinxrbf ; 0.400000 ; 463.891349 ; 5433.866219 ; 11890.686874; 0.601291
+// Iteration 6; Missing rate = 0.500000; RSE (X, X_ic) = 20026.016863
+softxlinxrbf ; 0.500000 ; 487.299061 ; 6869.829884 ; 13903.819449; 0.679351
+// Iteration 6; Missing rate = 0.600000; RSE (X, X_ic) = 21749.918665
+softxlinxrbf ; 0.600000 ; 464.312729 ; 8569.185077 ; 15943.148761; 0.757007
+// Iteration 6; Missing rate = 0.700000; RSE (X, X_ic) = 23504.455529
+softxlinxrbf ; 0.700000 ; 507.512500 ; 12103.687054 ; 18077.776276; 0.833082
+// Iteration 6; Missing rate = 0.800000; RSE (X, X_ic) = 25154.556964
+softxlinxrbf ; 0.800000 ; 483.494333 ; 19689.760432 ; 21672.501412; 0.921000
+// Iteration 6; Missing rate = 0.900000; RSE (X, X_ic) = 26680.386449
+softxlinxrbf ; 0.900000 ; 460.927097 ; 23123.234485 ; 24630.482335; 1.013327
+// Iteration 6; Missing rate = 0.920000; RSE (X, X_ic) = 27012.856737
+softxlinxrbf ; 0.920000 ; 472.390731 ; 18579.656512 ; 24980.432927; 1.025403
+// Iteration 6; Missing rate = 0.940000; RSE (X, X_ic) = 27274.251213
+softxlinxrbf ; 0.940000 ; 507.538279 ; 18279.054996 ; 25974.472437; 1.058995
+// Iteration 6; Missing rate = 0.960000; RSE (X, X_ic) = 27565.120998
+softxlinxrbf ; 0.960000 ; 466.762357 ; 17473.539099 ; 26764.498229; 1.089524
+// Iteration 6; Missing rate = 0.980000; RSE (X, X_ic) = 27869.837058
+softxlinxrbf ; 0.980000 ; 502.135800 ; 30911.491857 ; 27447.970134; 1.109878
+// Iteration 7; Missing rate = 0.100000; RSE (X, X_ic) = 8719.870496
+softxlinxrbf ; 0.100000 ; 472.977755 ; 2935.817165 ; 5552.439170; 0.287759
+// Iteration 7; Missing rate = 0.400000; RSE (X, X_ic) = 17901.302265
+softxlinxrbf ; 0.400000 ; 458.391104 ; 6986.511502 ; 11866.000092; 0.601231
+// Iteration 7; Missing rate = 0.500000; RSE (X, X_ic) = 19916.073367
+softxlinxrbf ; 0.500000 ; 466.094318 ; 8652.337513 ; 13889.422608; 0.686391
+// Iteration 7; Missing rate = 0.600000; RSE (X, X_ic) = 21772.824910
+softxlinxrbf ; 0.600000 ; 508.300450 ; 13761.187016 ; 15620.380429; 0.754358
+// Iteration 7; Missing rate = 0.700000; RSE (X, X_ic) = 23589.377345
+softxlinxrbf ; 0.700000 ; 480.542064 ; 10106.592428 ; 18487.479082; 0.835161
+// Iteration 7; Missing rate = 0.800000; RSE (X, X_ic) = 25154.834239
+softxlinxrbf ; 0.800000 ; 470.550120 ; 9769.654190 ; 20900.949292; 0.911778
+// Iteration 7; Missing rate = 0.900000; RSE (X, X_ic) = 26638.575985
+softxlinxrbf ; 0.900000 ; 460.163891 ; 12620.776829 ; 24251.300102; 1.008315
+// Iteration 7; Missing rate = 0.920000; RSE (X, X_ic) = 27009.762046
+softxlinxrbf ; 0.920000 ; 477.097313 ; 20982.973757 ; 25533.522326; 1.041793
+// Iteration 7; Missing rate = 0.940000; RSE (X, X_ic) = 27271.380875
+softxlinxrbf ; 0.940000 ; 483.463744 ; 20002.527990 ; 25872.765563; 1.053744
+// Iteration 7; Missing rate = 0.960000; RSE (X, X_ic) = 27574.352874
+softxlinxrbf ; 0.960000 ; 486.263679 ; 23794.040264 ; 26602.546046; 1.086031
+// Iteration 7; Missing rate = 0.980000; RSE (X, X_ic) = 27849.917671
+softxlinxrbf ; 0.980000 ; 477.928874 ; 12775.153925 ; 27502.552019; 1.113257
+// Iteration 8; Missing rate = 0.100000; RSE (X, X_ic) = 8697.305916
+softxlinxrbf ; 0.100000 ; 462.205037 ; 6676.383137 ; 5398.573605; 0.286677
+// Iteration 8; Missing rate = 0.400000; RSE (X, X_ic) = 17898.115822
+softxlinxrbf ; 0.400000 ; 461.460735 ; 6650.018309 ; 12129.537062; 0.598363
+// Iteration 8; Missing rate = 0.500000; RSE (X, X_ic) = 19969.039469
+softxlinxrbf ; 0.500000 ; 489.431505 ; 8871.476031 ; 13363.961705; 0.678075
+// Iteration 8; Missing rate = 0.600000; RSE (X, X_ic) = 21927.798897
+softxlinxrbf ; 0.600000 ; 458.730687 ; 14621.056670 ; 16220.606154; 0.762793
+// Iteration 8; Missing rate = 0.700000; RSE (X, X_ic) = 23562.070867
+softxlinxrbf ; 0.700000 ; 498.521239 ; 14267.775826 ; 18770.500263; 0.841952
+// Iteration 8; Missing rate = 0.800000; RSE (X, X_ic) = 25210.711819
+softxlinxrbf ; 0.800000 ; 480.855417 ; 10888.237708 ; 21460.093417; 0.918217
+// Iteration 8; Missing rate = 0.900000; RSE (X, X_ic) = 26691.307470
+softxlinxrbf ; 0.900000 ; 485.628183 ; 18337.776784 ; 24786.022101; 1.018016
+// Iteration 8; Missing rate = 0.920000; RSE (X, X_ic) = 27008.062703
+softxlinxrbf ; 0.920000 ; 486.843314 ; 13147.203025 ; 25130.927138; 1.030545
+// Iteration 8; Missing rate = 0.940000; RSE (X, X_ic) = 27311.981288
+softxlinxrbf ; 0.940000 ; 479.058943 ; 17126.903142 ; 26017.634784; 1.058467
+// Iteration 8; Missing rate = 0.960000; RSE (X, X_ic) = 27559.786732
+softxlinxrbf ; 0.960000 ; 477.467467 ; 26370.734678 ; 26623.092172; 1.078668
+// Iteration 8; Missing rate = 0.980000; RSE (X, X_ic) = 27859.064901
+softxlinxrbf ; 0.980000 ; 485.561494 ; 15070.954012 ; 27329.841783; 1.114914
+// Iteration 9; Missing rate = 0.100000; RSE (X, X_ic) = 9033.914283
+softxlinxrbf ; 0.100000 ; 449.127487 ; 28814.369168 ; 5650.962672; 0.288676
+// Iteration 9; Missing rate = 0.400000; RSE (X, X_ic) = 17757.432958
+softxlinxrbf ; 0.400000 ; 472.136965 ; 7390.089015 ; 11995.221464; 0.601652
+// Iteration 9; Missing rate = 0.500000; RSE (X, X_ic) = 19895.602780
+softxlinxrbf ; 0.500000 ; 500.329861 ; 6424.178521 ; 13858.735475; 0.683512
+// Iteration 9; Missing rate = 0.600000; RSE (X, X_ic) = 21845.181547
+softxlinxrbf ; 0.600000 ; 474.886325 ; 15123.960170 ; 15972.682511; 0.758767
+// Iteration 9; Missing rate = 0.700000; RSE (X, X_ic) = 23592.734342
+softxlinxrbf ; 0.700000 ; 527.310360 ; 8961.053239 ; 18305.738574; 0.831013
+// Iteration 9; Missing rate = 0.800000; RSE (X, X_ic) = 25096.866196
+softxlinxrbf ; 0.800000 ; 472.505359 ; 9999.864138 ; 21167.540173; 0.915368
+// Iteration 9; Missing rate = 0.900000; RSE (X, X_ic) = 26762.812321
+softxlinxrbf ; 0.900000 ; 503.243904 ; 16573.910069 ; 24432.198074; 1.008519
+// Iteration 9; Missing rate = 0.920000; RSE (X, X_ic) = 26969.599259
+softxlinxrbf ; 0.920000 ; 489.466843 ; 13723.574428 ; 25031.600954; 1.024359
+// Iteration 9; Missing rate = 0.940000; RSE (X, X_ic) = 27312.648081
+softxlinxrbf ; 0.940000 ; 509.920541 ; 18548.393426 ; 25850.283028; 1.055176
+// Iteration 9; Missing rate = 0.960000; RSE (X, X_ic) = 27568.896692
+softxlinxrbf ; 0.960000 ; 460.035782 ; 20247.420995 ; 26637.243656; 1.080751
+// Iteration 9; Missing rate = 0.980000; RSE (X, X_ic) = 27855.251326
+softxlinxrbf ; 0.980000 ; 464.882523 ; 14549.032209 ; 27143.866832; 1.093264

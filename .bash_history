@@ -391,3 +391,252 @@ pmap 'pgrep -u 1000'
 pmap pgrep -u 1000
 smem -u
 htop
+top
+git status 
+git add .
+git status 
+git commit 
+git status 
+git push 
+exit
+matlab
+exit
+top
+ls
+ls outcomes/
+ls -la outcomes/
+vi outcomes/cmu_faces_8sep2016.csv 
+top
+exit
+emacs kmf/test_kcnmf.py
+ls -la outcomes/
+top
+emacs kmf/test_kcnmf.py
+top
+ls -la outcomes/
+ls
+vi outcomes/cmu_faces_8sep2016.csv 
+emacs kmf/test_kcnmf.py
+ls
+ls kmf/
+ls 
+ls kmf/
+ls cnmf
+vim cnmf/cnmf_experiment.py 
+ls
+cd kmf/
+ls
+emacs test_kcnmf.py
+exit
+ls outcomes/
+vim outcomes/cmu_faces_8sep2016.csv 
+ls outcomes/cmu_faces_8sep2016.csv 
+ls -la outcomes/cmu_faces_8sep2016.csv 
+top
+ls -la outcomes/cmu_faces_8sep2016.csv 
+vim outcomes/cmu_faces_8sep2016.csv 
+ls -la outcomes/cmu_faces_8sep2016.csv 
+top
+ls -la outcomes/cmu_faces_8sep2016.csv 
+vim outcomes/cmu_faces_8sep2016.csv 
+ls -la outcomes/cmu_faces_8sep2016.csv 
+vim outcomes/cmu_faces_8sep2016.csv 
+ls -la outcomes/cmu_faces_8sep2016.csv 
+top
+ls -la outcomes/cmu_faces_8sep2016.csv 
+top
+exit
+ls
+ls outcomes/
+emacs kmf/test_kcnmf.py
+top
+vim outcomes/cmu_faces_14sep2016.csv 
+exit
+pwd
+vim outcomes/cmu_faces_8sep2016.csv 
+top
+emacs test_kcnmf.py
+emacs kmf/test_kcnmf.py
+ls -la outcomes/
+emacs kmf/test_kcnmf.py
+top
+ls -la outcomes/
+vim outcomes/cmu_faces_12sep2016.csv 
+emacs kmf/test_kcnmf.py
+vim outcomes/cmu_faces_12sep2016.csv 
+emacs kmf/test_kcnmf.py
+ls kmf/
+emacs kmf/kernel.py
+top
+ls -la outcomes/
+vim outcomes/cmu_faces_14sep2016.csv 
+emacs kmf/test_kcnmf.py
+vim outcomes/cmu_faces_14sep2016.csv 
+emacs kmf/test_kcnmf.py
+ls
+mkdir jou
+ls
+ls jou/
+vim jou/resultsfile.txt 
+exit
+emacs kmf/test_kcnmf.py
+exit
+ls
+ls kmf/
+ls pymf/
+ls pymf/pymf/
+cp pymf/pymf/cnmf.py pymf/pymf/cnmf2.py 
+ls pymf/pymf/
+emacs pymf/pymf/cnmf2.py 
+ls pymf/pymf/
+ls
+ls cnmf
+ls pymf/
+ls pymf/pymf/
+cp pymf/pymf/ pymf2/
+help cp
+man cp
+cp -r pymf/pymf/ pymf2/
+ls
+ls py
+ls pymf2
+rm pymf/pymf/cnmf2.py 
+rm pymf2/cnmf2.py 
+emacs pymf2/cnmf.py 
+emacs kmf/test_kcnmf.py
+emacs kmf/test_kcnmf.py
+emacs pymf2/nmf.py 
+ls datasets/
+ls -la datasets/
+ls
+mkdir algorithms
+top
+mem
+smem
+top
+emacs kmf/test_kcnmf.py
+ls kmf/
+emacs kmf/test_kcnmf.pyc
+emacs kmf/test_kcnmf.py
+emacs kmf/test_kcnmf.py &
+emacs kmf/test_kcnmf.py
+top
+emacs kmf/test_kcnmf.py
+top
+ema
+exit
+ls outcomes/
+emacs kmf/test_kcnmf.py
+top
+ls outcomes/
+ls -la outcomes/
+top
+ls -la outcomes/
+top
+ls -la outcomes/
+top
+ls -la outcomes/
+top
+ls -la outcomes/
+top
+ls -la outcomes/
+vim outcomes/cmu_faces_param_19oct2016.csv 
+emacs kmf/test_kcnmf.py
+top
+ls -la outcomes/
+emacs kmf/test_kcnmf.py
+top
+ls -la outcomes/
+vim outcomes/cmu_faces_param_19oct2016.csv 
+top
+exit
+ls
+ls kmf/
+emacs kmf/kernel.py
+top
+emacs kmf/kernel.py
+exit
+emacs kmf/kernel.py
+ls
+emacs kmf/kernel.py
+emacs kmf/kernelFaces.py
+top
+exit
+top
+ls kmf/
+emacs kmf/test_kcnmf.py
+emacs kmf/test_kcnmf.py
+top
+ls -la outcomes/
+top
+ls -la outcomes/
+vim outcomes/cmu_faces_26oct2016.csv 
+top
+exit
+top
+ls -la outcomes/
+vim outcomes/cmu_faces_26oct2016.csv 
+top
+exit
+ls -la outcomes/
+top
+exit
+ls -la outcomes/
+vim outcomes/cmu_faces_26oct2016.csv 
+top
+vim outcomes/cmu_faces_26oct2016.csv 
+vim outcomes/cmu_faces_12sep2016.csv 
+vim outcomes/cmu_faces_26oct2016.csv 
+top
+ls
+emacs kmf/test_kcnmf.py
+clear
+top
+emacs kmf/test_kcnmf.py
+ls -la outcomes/
+exit
+top
+exit
+emacs kmf/test_kcnmf.py &
+emacs kmf/test_kcnmf.py
+top
+emacs kmf/test_kcnmf.py
+ls -la outcomes/
+top
+exit
+top
+exit
+top
+ls -la outcomes/
+exit
+emacs kmf/test_kcnmf.py
+top
+emacs kmf/test_kcnmf.py
+top
+exit
+top
+exit
+top
+exit
+top
+exit
+
+exit
+ls -la outcomes/
+vim outcomes/cmu_faces_param_8nov2016.csv 
+ls -la outcomes/
+exit
+vim outcomes/cmu_faces_param_8nov2016.csv 
+top
+exit
+top
+vim outcomes/cmu_faces_param_8nov2016.csv 
+ls -la outcomes/
+exit
+top
+ls -la outcomes/
+vim outcomes/cmu_faces_param_8nov2016.csv 
+exit
+top
+vim outcomes/cmu_faces_param_8nov2016.csv 
+top

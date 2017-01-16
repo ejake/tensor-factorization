@@ -92,11 +92,11 @@ class OKMF:
             indices.sort()
             self.Budget = X[indices,:]
         #self._KB = K(self.Budget,None,metric=self._metric,**self._kwds)#change
-        Ks = Kernel.softKernel(self._X,0.5, 1, 30)#Kernel for persons AJP
-        Kp = K(self.Budget,None,metric=self._metric,**self._kwds)#K(x,None,self._metric,**self._kwds)#Kernel for poses AJP
-        Ki = K(self.Budget,None,'linear')#Kernel for illumination AJP
-        #self._KB = K(self.Budget,None,metric=self._metric,**self._kwds)
-        self._KB = dot(dot(Kp,Ki),Ks) #AJP
+        #Ks = Kernel.softKernel(self._X,0.5, 1, 30)#Kernel for persons AJP
+        #Kp = K(self.Budget,None,metric=self._metric,**self._kwds)#K(x,None,self._metric,**self._kwds)#Kernel for poses AJP
+        #Ki = K(self.Budget,None,'linear')#Kernel for illumination AJP
+        self._KB = K(self.Budget,None,metric=self._metric,**self._kwds)
+        #self._KB = dot(dot(Kp,Ki),Ks) #AJP
         self.W = self._initW()
         iteration = 0
         if calculateErrors:
@@ -130,10 +130,10 @@ class OKMF:
         #return kk(self._KB,self._latentTopics,5)[0].T
     
     def _nextKxi(self,x):
-        #return K(self.Budget,x,self._metric,**self._kwds)#change
+        return K(self.Budget,x,self._metric,**self._kwds)#change
         #Kp = K(self.Budget,x,self._metric,**self._kwds)#K(x,None,self._metric,**self._kwds)#Kernel for poses AJP
         #Ki = K(self.Budget,x,'linear')#Kernel for illumination AJP
-        return Kernel.prodKernel(self.Budget,x,self._metric,**self._kwds)
+        #return Kernel.prodKernel(self.Budget,x,self._metric,**self._kwds)#AJP
     
     def _nextH(self,kxi):
         A = dot(dot(self.W.T,self._KB),self.W)
@@ -194,10 +194,10 @@ class OKMF:
         sampleError : float
             The objective function evaluated for the given sample.
         """
-        #E1 = np.trace(K(x,None,self._metric,**self._kwds))
-        Kp = K(x,None,self._metric,**self._kwds)#K(x,None,self._metric,**self._kwds)#Kernel for poses AJP
-        Ki = K(x,None,'linear')#Kernel for illumination AJP        
-        E1 = np.trace(dot(Kp,Ki))#AJP        
+        E1 = np.trace(K(x,None,self._metric,**self._kwds))
+        #Kp = K(x,None,self._metric,**self._kwds)#K(x,None,self._metric,**self._kwds)#Kernel for poses AJP
+        #Ki = K(x,None,'linear')#Kernel for illumination AJP        
+        #E1 = np.trace(dot(Kp,Ki))#AJP        
         kxi = self._nextKxi(x)
         h = self._nextH(kxi)
         E2 = np.trace(dot(h.T,dot(self.W.T,kxi)))

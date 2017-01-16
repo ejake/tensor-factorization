@@ -301,3 +301,43 @@ def preimage(X, alpha, kernel_fun,**params):
         
     return x_pre,trainPre
 
+def preimage2(X, alpha, Xgt, kernel_fun,**params):
+    """
+    X: (numpy array nxm) Input data
+    sigma: scalar
+    alpha: numpy array (1xn)
+    method: 
+            fpi: Fixed-Point iterations
+    """
+    trainPre = list()
+    max_iter = 10 #halt criterium
+    epsilon = 0.0001 #halt criterium
+    #error = np.array()
+    #initialization
+    x_pre = np.random.rand(1,X.shape[1])    
+        
+    for it in range(1,max_iter):
+        sum_num = np.zeros((1,X.shape[1]))
+        sum_den = 0
+        #compute kernel
+        print 'Preimage ',it,  X.shape, x_pre.shape
+        kx = _get_kernel(X, x_pre, kernel_fun, **params)
+        #kx = K(X,x_pre,'rbf',gamma = (2*sigma)**-2)#compute Gaussian kernel
+        for i in range(1,X.shape[0]):#might collapse this for with products
+            fact1 = alpha[i]*kx[i]
+            sum_den += fact1
+            sum_num += fact1*X[i,:]
+            
+        if sum_den == 0:
+            x_pre = 0
+        else:
+            x_pre = sum_num/sum_den
+        #compute error
+        if Xgt is None:
+            trainPre.append(x_pre)
+        else:            
+            trainPre.append(np.linalg.norm(x_pre - Xgt))        
+        
+        
+    return x_pre,trainPre
+

@@ -120,8 +120,8 @@ class FacesReconstruction:
             
             
             if preimage_method == 2:
-                Kxx = kernel._get_kernel(np.stack((self.X[self.pixel_completes].T,np.zeros(len(self.pixel_completes)).T), axis = 1), np.append(self.X[i], 0),kernel_method, gamma=(2*self.parameters['sigmax'])**-2)
-                Kyx = kernel._get_kernel(np.stack((self.Y[self.pixel_completes].T,np.zeros(len(self.pixel_completes)).T), axis = 1), np.append(self.Y[i], 0),kernel_method, gamma=(2*self.parameters['sigmay'])**-2)
+                Kxx = kernel._get_kernel(np.stack((self.X[self.pixel_completes].T,np.zeros(len(self.pixel_completes)).T), axis = 1), np.append(self.X[self.pixel_incompletes[i]], 0),kernel_method, gamma=(2*self.parameters['sigmax'])**-2)
+                Kyx = kernel._get_kernel(np.stack((self.Y[self.pixel_completes].T,np.zeros(len(self.pixel_completes)).T), axis = 1), np.append(self.Y[self.pixel_incompletes[i]], 0),kernel_method, gamma=(2*self.parameters['sigmay'])**-2)
                 Ktx = Kxx*Kyx
                 aux, trainErrorskl = kernel.pixel_preimage(self.Pixel[self.pixel_completes], Ktx, alpha, 'rbf', gamma=(2*self.parameters['sigmap'])**-2)
             if preimage_method == 1:
@@ -136,7 +136,7 @@ class FacesReconstruction:
             self.pixel_preim[self.pixel_incompletes[i]] = aux
             rse_f.append(np.linalg.norm(self.Pixel[self.pixel_incompletes[i]] - self.pixel_preim[self.pixel_incompletes[i]])/np.linalg.norm(self.Pixel[self.pixel_incompletes[i]]))
         
-        return rse_f
+        #return Ktx, alpha, Kxx, Kyx
 
     
     def naive_avg(self):

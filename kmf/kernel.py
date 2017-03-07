@@ -88,8 +88,13 @@ def _get_kernel(X,y,kernel_func,**params):
         #kx =  K(X,y,'rbf',**params) * K(X,y,'poly',**params)
         kx =  np.dot( np.exp(-1*np.linalg.norm(X-y)/params['gamma']) , (np.dot(X,y.T) + params['coef0'])**params['degree'])#:|    
     else:
-        kx = K(X,y,'linear')
-        
+#        kx = K(X,y,'linear')
+        kx = np.zeros(X.shape[0])
+        for i in xrange(X.shape[0]):
+            if np.abs(X[i, 0]-y[0]) <= 1:
+                kx[i] = 1
+            else:
+                kx[i] = 0
     return kx
 
 
@@ -269,6 +274,7 @@ def preimage(X, alpha, kernel_fun,**params):
     X: (numpy array nxm) Input data
     sigma: scalar
     alpha: numpy array (1xn)
+    K: numpy array (1xn) K(X,x_i)
     method: 
             fpi: Fixed-Point iterations
     """
@@ -283,12 +289,51 @@ def preimage(X, alpha, kernel_fun,**params):
         sum_num = np.zeros((1,X.shape[1]))
         sum_den = 0
         #compute kernel
-        kx = _get_kernel(X, x_pre, kernel_fun, **params)
+        kx = _get_kernel(X, x_pre, kernel_fun, **params)        
         #kx = K(X,x_pre,'rbf',gamma = (2*sigma)**-2)#compute Gaussian kernel
         for i in range(1,X.shape[0]):#might collapse this for with products
             fact1 = alpha[i]*kx[i]
             sum_den += fact1
             sum_num += fact1*X[i,:]
+            
+        if sum_den == 0:
+            x_pre = 0
+        else:
+            x_pre = sum_num/sum_den
+        #compute error
+        #error = np.norm(x_pre - k_x)
+        trainPre.append(x_pre)
+        
+        
+    return x_pre,trainPre
+
+def pixel_preimage(X, Kxy, alpha, kernel_fun,**params):
+    """
+    X: (numpy array nxm) Input data
+    sigma: scalar
+    alpha: numpy array (1xn)
+    K: numpy array (1xn) K(X,x_i)
+    method: 
+            fpi: Fixed-Point iterations
+    """
+    trainPre = list()
+    max_iter = 2 #halt criterium
+    epsilon = 0.0001 #halt criterium
+    #error = np.array()
+    #initialization
+    #x_pre = np.random.rand(1,X.shape[0])
+    x_pre = -1
+    for it in range(1,max_iter):
+        sum_num = 0
+        sum_den = 0
+        #compute kernel
+        kx = Kxy
+        #kx = _get_kernel(X, x_pre, kernel_fun, **params)
+        #kx = K(X,x_pre,'rbf',gamma = (2*sigma)**-2)#compute Gaussian kernel
+        for i in range(1,X.shape[0]):#might collapse this for with products
+            fact1 = alpha[i]*kx[i]
+            sum_den += fact1
+            sum_num += fact1*X[i]
             
         if sum_den == 0:
             x_pre = 0
